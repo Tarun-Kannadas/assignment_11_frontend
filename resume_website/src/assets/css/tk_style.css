@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    margin: 0;
+}
+
+.mainheader{
+    text-align: center;
+}
+
+.left-column{
+    flex: 1;
+    text-align: left;
+    background-color: #183140;
+    color: white;
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+.htwol{
+    text-align: center;
+    background-color: #264357;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.htwor{
+    text-align: center;
+    background-color: #dbdbdb;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.right-column{
+    flex: 2;
+    text-align: left;
+    padding: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+p.paragraph,#para
+{
+    text-align: left !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3
+{
+    margin: 0;
+    padding: 0;
+}
+
+.link1
+{
+    cursor: pointer;
+}
